@@ -67,7 +67,7 @@ body {
   margin-top: 15px;
   border-radius: 50px;
   background-color: white;
-  box-shadow: 10px 10px 20px -15px;
+  box-shadow: 10px 10px 20px -15px black;
   transition-property: all;
   transition: ease-in-out;
   transition-duration: 0.2s;
