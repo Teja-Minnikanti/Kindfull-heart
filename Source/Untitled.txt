@@ -1,0 +1,13 @@
+Random UI-2
+
+App idea --------------------- 91
+A kindness sharing app that gives suggestions for users to do right by their
+colleagues, friends, and people whom they do not know. The things include
+making small donations, showing kindness, helping people, caring more
+and becoming more polite to others.
+
+Gradient --------------------- 3/2
+
+Fonts ------------------------- 18
+Josefine Sans
+Dm Sans

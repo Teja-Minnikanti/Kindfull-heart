@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .grid-div {
+        display: grid;
+        grid-template-columns: 50% 50%;
+      }
+
+      .main-img {
+        transform: scale(0.9);
+        border-radius: 30px;
+        overflow: hidden;
+      }
+
+      .heading {
+        color: white;
+        font-family: Josefin Sans;
+        text-align: center;
+      }
+      .divider {
+        border: none;
+        background-color: white;
+        height: 2px;
+        width: 95%;
+      }
+      .content p {
+        color: white;
+        padding-left: 100px;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        padding-top: 10px;
+      }
+
+      form {
+        margin-top: 40px;
+        margin-left: 120px;
+        transform: scale(1.1);
+      }
+
+      .fullname-label {
+        color: white;
+        font-family: Josefin Sans;
+        padding-left: 5px;
+        font-size: 20px;
+      }
+
+      .fullname-div {
+        padding-top: 20px;
+      }
+
+      .password-label {
+        padding-left: 5px;
+        color: white;
+        font-family: Josefin Sans;
+        font-size: 20px;
+      }
+
+      .password-div {
+        padding-top: 25px;
+      }
+
+      .phone-label {
+        padding-left: 5px;
+        color: white;
+        font-family: Josefin Sans;
+        font-size: 20px;
+      }
+
+      .phone-div {
+        padding-top: 25px;
+      }
+
+      .input-box {
+        margin-top: 5px;
+        border: none;
+        border-radius: 12px;
+        width: 300px;
+        height: 30px;
+        outline: none;
+        transition: 0.3s ease-in-out;
+        padding-left: 10px;
+        font-family: DM Sans;
+      }
+
+      .input-box:hover {
+        box-shadow: 10px 10px 20px -10px;
+      }
+
+      .submit-btn {
+        color: white;
+        margin-top: 25px;
+        outline: none;
+        border: none;
+        background-color: #4f4f4f;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 30px;
+        font-family: Josefin Sans;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+      }
+
+      .submit-btn:hover {
+        box-shadow: 10px 10px 20px -10px black;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html" class="a-hover">Home</a></li>
+          <li><a href="aboutus.html" class="a-hover">About Us</a></li>
+          <li>
+            <a href="index.html">
+              <img
+                src="Logo-01.png"
+                alt="logo"
+                height="95px"
+                width="199"
+                class="logo-hover"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="a-hover-active">Contact Us</a>
+          </li>
+          <li><a href="help.html" class="a-hover">Help</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1 class="heading">Contact US</h1>
+        <hr class="divider" />
+      </section>
+      <section>
+        <div class="grid-div">
+          <div class="content">
+            <p>
+              If you like to donate money or clothes like fill the below form
+              <br />
+              we'll contact you back.
+            </p>
+            <form action="thankyou.html">
+              <div class="fullname-div">
+                <label for="fullname" class="fullname-label">Full Name</label>
+                <br />
+                <input type="text" class="input-box" id="fullname" />
+              </div>
+
+              <div class="password-div">
+                <label for="password" class="password-label">Password</label>
+                <br />
+                <input type="password" id="password" class="input-box" />
+              </div>
+
+              <div class="phone-div">
+                <label for="phone" class="phone-label">Phone Number</label>
+                <br />
+                <input type="text" id="phone" class="input-box" />
+              </div>
+
+              <button type="submit" class="submit-btn">SUBMIT</button>
+            </form>
+          </div>
+          <div class="main-img">
+            <img src="source/contactus.jpg" alt="contact-us-img" width="100%" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
